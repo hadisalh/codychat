@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine on
+IndexIgnore *
+RewriteRule ^chat-([0-9_]+)$  ?room=$1 [QSA]
+RewriteRule ^chat-embed-([0-9_]+)$  ?embed=1&room=$1 [QSA]

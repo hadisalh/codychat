@@ -1,0 +1,68 @@
+@media screen and (max-width:1000px){
+	.room_element { width:calc(33% - 10px); }
+}
+@media screen and (max-width:1120px){
+	#page_content { padding:20px 5px; }
+	#wrap_main_header { padding:0 7px; }
+}
+@media screen and (min-width:1121px){
+	.show_mobile { display:none !important; }
+}
+@media screen and (max-width:1100px){
+	.page_menu { display:none; }
+	#open_sub_mobile {  display:table-cell; }
+	.page_menu_wrapper { box-shadow:none; }
+}
+@media screen and (min-width:1101px){
+	#side_menu { display:none !important; }
+}
+@media screen and (max-width:768px){
+	#menu_main_footer { text-align:center; width:100%; }
+	#side_menu { border-bottom:0px !important; border-top:0px !important; }
+	.hide_mobile { display:none; }
+	.show_phone {  display:block; }
+	.page_left, .page_right, .page_350, .page_40,
+	.page_half, .page_third, .page_two_third { display:block; width:100%; padding:0px; }
+	.post_image img { max-height:450px; }
+	.cookie_text { display:block; vertical-align:baseline; text-align:center; }
+	.cookie_button { display:block; width:100%; vertical-align:baseline; padding:15px 0 0 0; text-align:center; }
+	#container_stream { display:none !important; }
+	.room_element { width:calc(50% - 10px); }
+}
+@media screen and (min-width:769px){
+	.show_phone { display:none; }
+}
+@media screen and (max-width:640px){
+	.room_t { max-width:60%; }
+	.modal_left, .modal_right { width:100%; float:none; padding:15px; }
+	.profile_avatar { width:100px; height:100px; }
+	.avatar_profile { width:100px; height:100px; }
+	.pro_name { font-size:18px; }
+	.pro_name_icon { width:14px; height:14px; display:block; }
+	.avatar_spin { width:100px; height:100px; }
+	.avatar_control { left:11px; }
+	.color_switch { width:16.1666666%; }
+	.hide_phone { display:none; }
+	.sp_box { width:98%; }
+	.proli { width:145px; }
+}
+@media screen and (min-width:481px){
+	.listing_half_element:nth-last-of-type(-n+2):not(:nth-child(even)) { border-bottom:none;}
+	.room_mobile_counter { display:none; }
+}
+@media only screen and (max-width : 480px) {
+	.chat_head_logo { width:0px; overflow:hidden; }
+	.form_left_full, .form_right_full { width:100%; padding:0; float:none; }
+	.listing_half_element { width:100%; float:none; margin:0; }
+	.sub_half_item { width:100%; float:none; margin:0 0 3px 0; }
+	.room_element { width:100%; margin:5px 0; }
+	.room_description { height:auto; max-height:auto; }
+}
+@media screen and (max-width:400px){
+.guest_recaptcha>div { transform:scale(0.85) !important; -webkit-transform:scale(0.85) !important; transform-origin:0 0 !important; -webkit-transform-origin:0 0 !important; }
+.register_recaptcha>div { transform:scale(0.85) !important; -webkit-transform:scale(0.85) !important; transform-origin:0 0 !important; -webkit-transform-origin:0 0 !important; }
+}
+@media screen and (max-height:400px){
+	#private_box { height:310px; }
+	#private_content { height:210px; }
+}

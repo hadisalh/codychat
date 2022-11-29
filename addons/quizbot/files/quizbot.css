@@ -1,0 +1,14 @@
+.quiz_question { background:#03add8; color:#012832; font-weight:bold; }
+.quiz_bad { background:#cc0000; color:orange; font-weight:bold; }
+.quiz_good { background:#74b20e; color:#003300; font-weight:bold; }
+.quiz_hint { background:#ac00e6; color:#39004d; font-weight:bold; }
+.quiz_question span { color:#fff; }
+.quiz_good span { color:#fff; }
+.quiz_bad span { color:#fff; }
+.quiz_hint span { color:#fff; }
+
+.quiz_text { border-radius:3px; padding:2px 10px; margin-top:5px; display:inline-block; }
+.quiz_text .my_notice { background:none !important; }
+.score_lm { display:table-cell; vertical-align:middle; width:70px; text-align:right; font-weight:bold; padding:0 5px; }
+.ranking_lm { display:table-cell; vertical-align:middle; width:30px; text-align:center; font-weight:bold; }
+.quiz_leaderbox { width:100%; max-height:400px; overflow:hidden; overflow-y:auto; }

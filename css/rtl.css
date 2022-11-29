@@ -1,0 +1,42 @@
+/* special rtl classes */
+.no_rtl { direction:ltr; }
+.rtl_elem { direction:rtl; }
+.rtl_fright { float:right; }
+.rtl_fleft { float:left; }
+.rtl_aleft { text-align:left; }
+.rtl_aright { text-align:right; }
+.rtl_toright { left:auto; right:0; }
+.rtl_toleft  { right:auto; left:0; }
+
+textarea, input { direction:rtl; }
+
+/* select box rtl */
+.selectboxit-arrow-container { position:absolute; left:0 !important; right:auto; }
+.selectboxit-container .selectboxit-options { text-align:right; }
+.selectboxit-option-icon-container, .selectboxit-text { float:right; }
+
+/* main rtl elements */
+.small_modal_content, .large_modal_content, .list_element, .left_list, .list_helement,
+.drop_list, .page_element, .hunter_private, .target_private,
+#show_chat, .post_element, .news_element, .sub_menu, .menu_page,
+.user_item, .intro_footer, .sub_list_item, .user_count,
+.in_room_element, .listing_element, .sub_menu_item, .fmenu_item,
+.over_modal_content, .over_emodal_content, #container_rooms, #private_top, .fmenu_item, .avitem { direction:rtl; }
+.listing_half_element { float:right; }
+.sub_half_item { float:right; }
+
+/* profile rtl */
+.p_item { float:right; }
+.modal_top_menu { right:auto; left:10px; }
+#pro_menu { right:auto; left:0; }
+#private_menu { right:auto; left:0; }
+
+/* post rtl */
+.like_count { float:right; }
+.comment_count { text-align:left; padding-left:10px; padding-right:0; }
+.post_menu { right:auto; left:0; text-align:right; }
+
+/* chat logs rtl */
+.my_text { padding:0 6px 0 0; }
+.chat_rank { padding:0 0 0 2px; }
+

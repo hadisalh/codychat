@@ -1,0 +1,7 @@
+.you_result { width:50%; float:left; height:150px; }
+.you_tumb { width:100%; }
+.you_text { max-height: 32px; font-size:12px; overflow: hidden; }
+@media screen and (max-width:330px){
+	.you_result { height:140px; }
+	.you_text { max-height:45px; }
+}

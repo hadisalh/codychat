@@ -1,0 +1,10 @@
+.voice_recording {
+    color:#ff0000!important;
+	animation: voice_blink 1s linear infinite;
+}
+
+@keyframes voice_blink {
+  50% {
+    opacity: 0;
+  }
+}

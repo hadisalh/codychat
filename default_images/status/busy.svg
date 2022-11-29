@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg baseProfile="tiny" version="1.2" viewBox="0 0 400 400" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="400" fill="#f00"/>
+<path d="m312.58 224.82c0 7-4.944 12.675-11.045 12.675h-203.07c-6.099 0-11.044-5.675-11.044-12.675v-49.648c0-7.001 4.945-12.677 11.044-12.677h203.07c6.1 0 11.045 5.675 11.045 12.677l-1e-3 49.648z" fill="#fff"/>
+</svg>

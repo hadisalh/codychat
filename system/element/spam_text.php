@@ -1,0 +1,1 @@
+<div class="system_text">%spam%</div>
